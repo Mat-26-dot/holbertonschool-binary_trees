@@ -1,1 +1,2 @@
-# holbertonschool-binary_trees
+#!/bin/bash
+binarytrees
