@@ -19,10 +19,10 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	return (NULL);
 
 	/* Initialize node values */
-	new_node->n = value;
-	new_node->parent = parent;
-	new_node->left = NULL;
-	new_node->right = NULL;
+	new_node->n = value; 
+	new_node->parent = parent; /* Set Parent */
+	new_node->left = NULL; /* Initialize node to NULL */
+	new_node->right = NULL; /* Initialize node to NULL */
 
 	return (new_node);
 }
